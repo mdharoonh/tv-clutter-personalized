@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Home-Personalised</string>
+
+    <!-- Opaque on purpose: a translucent Home lets the TV app keep showing through after an HDMI input. -->
+    <style name="HomeTheme" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSwipeToDismiss">false</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

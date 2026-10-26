@@ -1,0 +1,14 @@
+# build output and local machine files
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+.idea/
+*.iml
+
+# your own source art and device logs
+reference/
+backup/
+preview/
+raw.bin

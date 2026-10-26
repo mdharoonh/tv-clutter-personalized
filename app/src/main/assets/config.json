@@ -1,0 +1,181 @@
+{
+ "apps": {
+  "netflix": {
+   "label": "Netflix",
+   "color": "#e50914",
+   "packages": [
+    "com.netflix.ninja",
+    "com.netflix.mediaclient"
+   ],
+   "logo": "logos/netflix.png"
+  },
+  "youtube": {
+   "label": "YouTube",
+   "color": "#ff0000",
+   "packages": [
+    "com.google.android.youtube.tv",
+    "com.google.android.youtube"
+   ],
+   "logo": "logos/youtube.png",
+   "logoFill": true
+  },
+  "hotstar": {
+   "label": "JioHotstar",
+   "color": "#7a3cff",
+   "packages": [
+    "in.startv.hotstar.dplus.tv",
+    "in.startv.hotstar",
+    "in.startv.hotstar.dplus"
+   ],
+   "logo": "logos/hotstar.png",
+   "logoFill": true
+  }
+ },
+ "radial": {
+  "art": {
+   "idle": "radial/idle.png",
+   "up": "radial/up.png",
+   "left": "radial/left.png",
+   "right": "radial/right.png",
+   "down": "radial/down.png",
+   "bg": "radial/bg.jpg"
+  },
+  "up": {
+   "type": "app",
+   "app": "netflix"
+  },
+  "left": {
+   "type": "hdmi",
+   "port": 2,
+   "label": "HDMI 2",
+   "color": "#4aa3ff",
+   "logo": "logos/airtel.png"
+  },
+  "right": {
+   "type": "app",
+   "app": "youtube"
+  },
+  "down": {
+   "type": "app",
+   "app": "hotstar"
+  }
+ },
+ "favourites": [
+  {
+   "id": "azhagae",
+   "title": "Azhagae Azhagu",
+   "app": "hotstar",
+   "color": "#f2b632",
+   "row": "front",
+   "link": "https://www.hotstar.com/in/shows/azhagae-azhagu/1271525502",
+   "cutout": "fav/azhagae.png",
+   "scene": "scenes/azhagae.jpg",
+   "x": 0.0033800889497092035,
+   "y": 0.4,
+   "w": 0.3132398221005816,
+   "h": 0.6
+  },
+  {
+   "id": "heartbeat",
+   "title": "Heartbeat",
+   "app": "hotstar",
+   "color": "#3b82c4",
+   "row": "back",
+   "link": "https://www.hotstar.com/in/shows/heart-beat/1260168231",
+   "cutout": "fav/heartbeat.png",
+   "scene": "scenes/heartbeat.jpg",
+   "x": 0.20745600000000003,
+   "y": 0.16000000000000003,
+   "w": 0.265088,
+   "h": 0.74
+  },
+  {
+   "id": "neeya",
+   "title": "Neeya Naana",
+   "app": "hotstar",
+   "color": "#4fb3c8",
+   "row": "front",
+   "link": "https://www.hotstar.com/in/shows/neeya-naana",
+   "cutout": "fav/neeya.png",
+   "scene": "scenes/neeya.jpg",
+   "x": 0.3952938996138996,
+   "y": 0.19999999999999996,
+   "w": 0.24941220077220078,
+   "h": 0.8
+  },
+  {
+   "id": "netflixtamil",
+   "title": "Tamil Movies",
+   "app": "netflix",
+   "color": "#e50914",
+   "row": "back",
+   "link": "https://www.netflix.com/in/browse/genre/107469",
+   "cutout": "fav/netflixtamil.png",
+   "scene": "scenes/netflixtamil.jpg",
+   "x": 0.6156091428571429,
+   "y": 0.16000000000000003,
+   "w": 0.2087817142857143,
+   "h": 0.74
+  },
+  {
+   "id": "pandian",
+   "title": "Pandian Stores",
+   "app": "hotstar",
+   "color": "#e8742a",
+   "row": "front",
+   "link": "https://www.hotstar.com/in/shows/pandian-stores-2/",
+   "cutout": "fav/pandian.png",
+   "scene": "scenes/pandian.jpg",
+   "x": 0.7315274879906837,
+   "y": 0.6,
+   "w": 0.23694502401863263,
+   "h": 0.4
+  }
+ ],
+ "kids": {
+  "scene": "kids/scene.jpg",
+  "worlds": [
+   {
+    "id": "jungle",
+    "title": "Animal Jungle",
+    "desc": "Animal songs & sounds",
+    "link": "https://www.youtube.com/results?search_query=animal+songs+for+kids+tamil",
+    "x": 0.06,
+    "y": 0.17,
+    "w": 0.28,
+    "h": 0.5
+   },
+   {
+    "id": "tree",
+    "title": "Rhyme Tree",
+    "desc": "Tamil songs for little explorers",
+    "link": "https://www.youtube.com/results?search_query=tamil+rhymes+for+kids",
+    "x": 0.375,
+    "y": 0.01,
+    "w": 0.32,
+    "h": 0.46
+   },
+   {
+    "id": "castle",
+    "title": "Story Castle",
+    "desc": "Stories and tales",
+    "link": "https://www.youtube.com/results?search_query=tamil+kids+stories",
+    "x": 0.74,
+    "y": 0.13,
+    "w": 0.24,
+    "h": 0.5
+   },
+   {
+    "id": "learn",
+    "title": "Learn & Play",
+    "desc": "A B C and Tamil letters",
+    "link": "https://www.youtube.com/results?search_query=tamil+alphabet+for+kids",
+    "x": 0.34,
+    "y": 0.52,
+    "w": 0.32,
+    "h": 0.36
+   }
+  ]
+ },
+ "favAspect": 0.47135135135135137
+}
