@@ -17,7 +17,7 @@ Tested on a MediaTek Android TV 11 box (1920x1080). Not affiliated with Netflix,
 | ![Netflix](docs/img/02-netflix.jpg) | ![YouTube](docs/img/04-youtube.jpg) |
 | ![Favourites](docs/img/06-favourites-3-heartbeat.jpg) | ![Kids](docs/img/07-kids.jpg) |
 
-A step-by-step guide with all screenshots is in [docs/Home-Personalised-guide.docx](docs/Home-Personalised-guide.docx).
+A step-by-step guide with all screenshots: [read it as a Google Doc](https://docs.google.com/document/d/1nbp7k6AMbDqXbM-XFs4I44dHl7jCqDczBt-6JmMC8LY/edit?usp=sharing), or download [docs/Home-Personalised-guide.docx](docs/Home-Personalised-guide.docx).
 
 ## Controls
 
